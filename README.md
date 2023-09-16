@@ -20,14 +20,28 @@ This tutorial has been initiated to teach 2nd-year undergraduate students in [Co
 
 
 ### Example and Lab Codes
-* :memo: Note) Only long example codes are given as follows. The other short codes are written in the given slides.
+* :memo: Note) Only long example codes are contained as follows. The other short codes are written in the given slides.
 * **Section 1. Python: Basic** [[slides]](https://github.com/mint-lab/prog_meets_math/blob/master/slides/python01_basic.pdf)
 * **Section 2. Python: From Beginner to Intermediate** [[slides]](https://github.com/mint-lab/prog_meets_math/blob/master/slides/python02_intermediate.pdf)
+  * [Mean and variance](https://github.com/mint-lab/prog_meets_math/blob/master/examples/mean_var.py)
 * **Section 3. Python: Standard Library** [[slides]](https://github.com/mint-lab/prog_meets_math/blob/master/slides/python03_std_library.pdf)
+  * [A very simple chatbot](https://github.com/mint-lab/prog_meets_math/blob/master/examples/simple_chatbot.py)
+  * [Turtle painter](https://github.com/mint-lab/prog_meets_math/blob/master/examples/turtle_painter.py)
+  * [Face detection using OpenCV](https://github.com/mint-lab/prog_meets_math/blob/master/examples/turtle_painter.py)
 * **Section 4. Python Meets Math: Calculus** [[slides]](https://github.com/mint-lab/prog_meets_math/blob/master/slides/math01_calculus.pdf)
+  * [Turtle animation](https://github.com/mint-lab/prog_meets_math/blob/master/examples/turtle_animation.py)
 * **Section 5. Python Meets Math: Linear Algebra** [[slides]](https://github.com/mint-lab/prog_meets_math/blob/master/slides/math02_linear_algebra.pdf)
+  * [Line fitting](https://github.com/mint-lab/prog_meets_math/blob/master/examples/line_fitting.py)
+  * [Curve fitting](https://github.com/mint-lab/prog_meets_math/blob/master/examples/curve_fitting.py)
+  * [Curve fitting with model selection](https://github.com/mint-lab/prog_meets_math/blob/master/examples/curve_fitting_model.py)
 * **Section 6. Python Meets Math: Optimization** [[slides]](https://github.com/mint-lab/prog_meets_math/blob/master/slides/math03_optimization.pdf)
+  * Finding a local minimum $y=0.1x^3-0.8x^2-1.5x+5.4$
+    * [Gradient descent](https://github.com/mint-lab/prog_meets_math/blob/master/examples/min_gradient_descent.py)
+    * [Newton's method](https://github.com/mint-lab/prog_meets_math/blob/master/examples/min_newton_method.py)
+    * [scipy.optimize](https://github.com/mint-lab/prog_meets_math/blob/master/examples/min_scipy_optimize.py)
+  * [Line fitting with minimizing geometric distance](https://github.com/mint-lab/prog_meets_math/blob/master/examples/line_fitting_geo_dist.py)
 * **Section 7. Python Meets Math: Probability and Statistics** [[slides]](https://github.com/mint-lab/prog_meets_math/blob/master/slides/math04_probability.pdf)
+  * [Central limit theorem visualization](https://github.com/mint-lab/prog_meets_math/blob/master/examples/clt_visualization.py)
 
 
 
@@ -38,3 +52,8 @@ This tutorial has been initiated to teach 2nd-year undergraduate students in [Co
 
 ### Authors
 * [Sunglok Choi](https://mint-lab.github.io/sunglok/)
+
+
+
+### Acknowledgement
+* An image file of [_My Mister_](https://tvn.cjenm.com/ko/mymister/) (_나의 아저씨_ in Korean) and a pretrained data file in [OpenCV](https://opencv.org/) are used for an example of face detection.
