@@ -4,7 +4,8 @@ _Programming Meets Mathematics_ (a.k.a. _Python meets Mathematics_) is an intuit
 This tutorial has been initiated to teach 2nd-year undergraduate students in [Computer Science and Engineering Department](https://computer.seoultech.ac.kr/) in [SEOULTECH](https://www.seoultech.ac.kr/). The course also includes a brief introduction to machine learning and deep learning as available in [dl_tutorial](https://github.com/mint-lab/dl_tutorial).
 
 * To install prerequisites in Python: `pip install -r requirements.txt`
-* To download [codes and slides in a ZIP file](https://github.com/mint-lab/prog_meets_math/archive/master.zip)
+* To clone this repository (codes and slides): `git clone https://github.com/mint-lab/prog_meets_math`
+* To download codes and slides as a ZIP file: [Click here](https://github.com/mint-lab/prog_meets_math/archive/master.zip)
 
 
 
