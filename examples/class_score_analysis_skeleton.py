@@ -24,7 +24,7 @@ if __name__ == '__main__':
         # Write the analysis report as a markdown file
         with open('class_score_analysis.md', 'w') as report:
             report.write('### Individual Score\n\n')
-            report.write('| Midterm | Final | Total |\n')
+            report.write('| Midterm | Final | Average |\n')
             report.write('| ------- | ----- | ----- |\n')
             for ((m_score, f_score), a_score) in zip(data, average):
                 report.write(f'| {m_score} | {f_score} | {a_score:.3f} |\n')
