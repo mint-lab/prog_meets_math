@@ -1,10 +1,11 @@
 ## Programming Meets Mathematics
-_Programming Meets Mathematics_ (a.k.a. _Python meets Mathematics_) is an intuitive tutorial on [Python](https://www.python.org/) and its widely used libraries such as [NumPy](https://numpy.org/), [Matplotlib](https://matplotlib.org/), and [SciPy](https://scipy.org/). Python with these libraries are commonly used in scientific computing (sometimes as an alternative of MATLAB). In addition to review these libraries, this tutorial aims to promote intuitive understanding of important mathematical concepts with code examples. The given example codes in Python provide visualization and simulation, which will connect your mathematical understanding to your programming skill.
+_Programming Meets Mathematics_ (a.k.a. _Python Meets Mathematics_) is an intuitive tutorial on [Python](https://www.python.org/) and its widely used libraries such as [NumPy](https://numpy.org/), [Matplotlib](https://matplotlib.org/), and [SciPy](https://scipy.org/). Python with these libraries are commonly used in scientific computing (sometimes as an alternative of MATLAB). In addition to review these libraries, this tutorial aims to promote intuitive understanding of important mathematical concepts with code examples. The given example codes in Python provide visualization and simulation, which will connect your mathematical understanding to your programming skill.
 
-This tutorial has been initiated to teach 2nd-year undergraduate students in [Computer Science and Engineering Department](https://computer.seoultech.ac.kr/) in [SEOULTECH](https://www.seoultech.ac.kr/). The course also includes a brief introduction to machine learning and deep learning as available in [dl_tutorial](https://github.com/mint-lab/dl_tutorial).
+This tutorial has been initiated as a course to teach 2nd-year undergraduate students in [Computer Science and Engineering Department](https://computer.seoultech.ac.kr/) in [SEOULTECH](https://www.seoultech.ac.kr/). The course also includes a brief introduction to machine learning and deep learning as available in [dl_tutorial](https://github.com/mint-lab/dl_tutorial).
 
 * To install prerequisites in Python: `pip install -r requirements.txt`
 * To clone this repository (codes and slides): `git clone https://github.com/mint-lab/prog_meets_math.git`
+* To fork this repository to your Github: [Click here](https://github.com/mint-lab/prog_meets_math/fork)
 * To download codes and slides as a ZIP file: [Click here](https://github.com/mint-lab/prog_meets_math/archive/master.zip)
 
 
