@@ -17,7 +17,7 @@ This tutorial has been initiated as a course to teach 2nd-year undergraduate stu
 * [Section 4. Python Meets Math: Calculus](https://github.com/mint-lab/prog_meets_math/blob/master/slides/math01_calculus.pdf)
 * [Section 5. Python Meets Math: Linear Algebra](https://github.com/mint-lab/prog_meets_math/blob/master/slides/math02_linear_algebra.pdf)
 * [Section 6. Python Meets Math: Optimization](https://github.com/mint-lab/prog_meets_math/blob/master/slides/math03_optimization.pdf)
-* [Section 7. Python Meets Math: Probability and Statistics](https://github.com/mint-lab/prog_meets_math/blob/master/slides/math04_probability.pdf)
+* [Section 7. Python Meets Math: Probability](https://github.com/mint-lab/prog_meets_math/blob/master/slides/math04_probability.pdf)
 
 
 
@@ -48,7 +48,7 @@ This tutorial has been initiated as a course to teach 2nd-year undergraduate stu
     * [scipy.optimize](https://github.com/mint-lab/prog_meets_math/blob/master/examples/min_scipy_optimize.py)
   * [Line fitting with minimizing geometric distance](https://github.com/mint-lab/prog_meets_math/blob/master/examples/line_fitting_geo_dist.py)
   * Lab) Multivariate Nonlinear Optimization [[slide]](https://github.com/mint-lab/prog_meets_math/blob/master/slides/math03_lab.pdf) [[skeleton_code]](multivar_optimization_skeleton.py)
-* **Section 7. Python Meets Math: Probability and Statistics** [[slides]](https://github.com/mint-lab/prog_meets_math/blob/master/slides/math04_probability.pdf)
+* **Section 7. Python Meets Math: Probability** [[slides]](https://github.com/mint-lab/prog_meets_math/blob/master/slides/math04_probability.pdf)
   * [Central limit theorem visualization](https://github.com/mint-lab/prog_meets_math/blob/master/examples/clt_visualization.py)
 
 
