@@ -1,5 +1,5 @@
 def read_data(filename):
-    # TODO) Read `filename` as a list of integer numbers
+    # TODO) Read `filename` as a list of integers
     data = []
     return data
 
@@ -9,7 +9,7 @@ def calc_weighted_average(data_2d, weight):
     return average
 
 def analyze_data(data_1d):
-    # TODO) Derive summary of the given `data_1d`
+    # TODO) Calculate summary statistics of the given `data_1d`
     # Note) Please don't use NumPy and other libraries. Do it yourself.
     mean = 0
     var = 0

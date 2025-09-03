@@ -7,7 +7,7 @@ if __name__ == '__main__':
     f   = lambda x: (1 - x[0])**2 + 100*(x[1] - x[0]**2)**2
     fd  = lambda x: np.array([0, 0]) # TODO: Fill the gradient vector as [df / dx[0], df / dx[1]]
 
-    # Define configuration
+    # Define the configuration
     x_init = [-1, 1]   # Please try other initial points
     learn_rate = 0.001 # Please try 0.01, 0.005, and 0.0001
     max_iter = 10000   # Please try 100, 1000, and 100000
@@ -17,7 +17,7 @@ if __name__ == '__main__':
     x = np.array(x_init)
     gd_xs = [x]
     for i in range(max_iter):
-        # Run the gradient descent
+        # Perform the gradient descent
         xp = x
         x = x # TODO: Implement your gradient descent
         gd_xs.append(x)

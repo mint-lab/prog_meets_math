@@ -40,7 +40,7 @@ class TurtlePainter(turtle.RawTurtle):
 if __name__ == '__main__':
     canvas = turtle.Screen()
     painter = TurtlePainter(canvas)
-    # You can add another turtles by additional instantiation.
+    # You can add other turtles by additional instantiation.
     # another = turtle.Turtle()
     # another.penup()
     # another.goto(100, 100)

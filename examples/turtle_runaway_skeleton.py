@@ -19,7 +19,7 @@ class RunawayGame:
         self.chaser.color('red')
         self.chaser.penup()
 
-        # Instantiate an another turtle for drawing
+        # Instantiate another turtle for drawing
         self.drawer = turtle.RawTurtle(canvas)
         self.drawer.hideturtle()
         self.drawer.penup()

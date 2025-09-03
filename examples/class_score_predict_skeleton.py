@@ -10,8 +10,8 @@ if __name__ == '__main__':
     class_en = np.loadtxt('data/class_score_en.csv', delimiter=',')
     data = np.vstack((class_kr, class_en))
 
-    # Estimate a line, final = slope * midterm + y_intercept
-    line = [0, 0] # TODO) Please find the best [slope, y_intercept] from 'data'
+    # Estimate a line: final = slope * midterm + y_intercept
+    line = [0, 0] # TODO) Find the best [slope, y_intercept] from 'data'
 
     # Predict scores
     final = lambda midterm: line[0] * midterm + line[1]
@@ -20,7 +20,7 @@ if __name__ == '__main__':
             given = input('Q) Please input your midterm score (Enter or -1: exit)? ')
             if given == '' or float(given) < 0:
                 break
-            print(f'A) Your final score is expected to {final(float(given)):.3f}.')
+            print(f'A) Your final score is expected to be {final(float(given)):.3f}.')
         except Exception as ex:
             print(f'Cannot answer the question. (message: {ex})')
             break
