@@ -1,8 +1,7 @@
 def normalize_data(n_cases, n_people, scale):
-    # TODO) Calculate the number of cases per its population
     norm_cases = []
     for idx, n in enumerate(n_cases):
-        norm_cases.append(0)
+        norm_cases.append(0) # TODO) Calculate the number of cases per its population
     return norm_cases
 
 regions  = ['Seoul', 'Gyeongi', 'Busan', 'Gyeongnam', 'Incheon', 'Gyeongbuk', 'Daegu', 'Chungnam', 'Jeonnam', 'Jeonbuk', 'Chungbuk', 'Gangwon', 'Daejeon', 'Gwangju', 'Ulsan', 'Jeju', 'Sejong']
@@ -20,7 +19,7 @@ print() # Print an empty line
 print('| Region | Population | Ratio (%) |')
 print('| ------ | ---------- | --------- |')
 for idx, pop in enumerate(n_people):
-    ratio = 0 # TODO) Calculate the ratio of new cases to each region’s population
+    ratio = 0 # TODO) Calculate the ratio of each local population to the total population
     print('| %s | %d | %.1f |' % (regions[idx], pop, ratio))
 print()
 
