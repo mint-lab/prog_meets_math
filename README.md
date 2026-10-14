@@ -50,6 +50,7 @@ This tutorial has been initiated as a course to teach 2nd-year undergraduate stu
   * Lab) Multivariate Nonlinear Optimization [[slide]](https://github.com/mint-lab/prog_meets_math/blob/master/slides/math03_lab.pdf) [[skeleton_code]](multivar_optimization_skeleton.py)
 * **Section 7. Python Meets Math: Probability** [[slides]](https://github.com/mint-lab/prog_meets_math/blob/master/slides/math04_probability.pdf)
   * [Central limit theorem visualization](https://github.com/mint-lab/prog_meets_math/blob/master/examples/clt_visualization.py)
+  * [Biased vs. unbiased sample variance by sample size](https://github.com/mint-lab/prog_meets_math/blob/master/examples/sample_var.py)
 
 
 
